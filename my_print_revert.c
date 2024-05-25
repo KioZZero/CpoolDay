@@ -1,5 +1,4 @@
 void print_char(char c);
-void print_number(int value);
 
 
 void my_print_revert(char *toRevert){
