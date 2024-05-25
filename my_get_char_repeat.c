@@ -1,6 +1,9 @@
 void print_(char c);
 
 int my_get_char_repeat(char to_find, const char *to_search){
+    if(to_search== NULL){
+        return 0;
+    }
     int i = 0;
     int number = 0;
     while(to_search[i]){
